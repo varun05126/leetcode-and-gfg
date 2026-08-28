@@ -1,5 +1,5 @@
 class Solution {
-    public int thirdMax(int[] nums) {
+    int thirdMax(int[] nums) {
         long first = Long.MIN_VALUE;
         long second = Long.MIN_VALUE;
         long third = Long.MIN_VALUE;
