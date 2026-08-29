@@ -1,7 +1,7 @@
 class Solution {
     public void reverseString(char[] s) {
         int left = 0;
-        int right = s.length - 1;
+        int right = s.length - 1; //decresing length means removing last letter
 
          while(left < right)
         {
